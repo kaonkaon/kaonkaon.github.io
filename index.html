@@ -27,7 +27,7 @@
       .left {
         background-color: black;
         color: white;
-        padding: 20px;
+        margin: 20px;
         float: left;
         width: 60%; /* The width is 20%, by default */\
         font-family: 'Edu NSW ACT Foundation', cursive;
@@ -62,7 +62,7 @@
       }
 
       .picsiz{
-        width: 200%;
+        max-width: 200%;
         height: auto;
       }
 
@@ -72,9 +72,31 @@
         }
 
         .picsiz{
-          width: 100%;
+          max-width: 100%;
           height: auto;
         }
+      }
+
+      .navbar {
+        overflow: hidden;
+        background-color: black;
+        position: fixed;
+        list-style-type: none;
+        bottom: 0;
+        width: 100%;
+      }
+
+      .navbar li {
+          float: left;
+      }
+
+      .navbar a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px;
+        font-size: 17px;
       }
     </style>
   </head>
@@ -83,12 +105,8 @@
 
       <header class="header_m">
         <h5 style="font-size: 30px;">Undangan Khitan</h5>
-        <h1 style="font-size: 60px; line-height: 0.7;">Walimatul Khitan</h1>
+        <h1 style="font-size: 60px; line-height: 0.7; position: -webkit-sticky; position: sticky;">Walimatul Khitan</h1>
       </header>
-
-      <div class="left">
-        <p>Left Menu</p>
-      </div>
 
       <div class="main">
         <p style="font-size: 20px">dengan memohon rahmat dan ridha Allah SWT. Kami mengaharapkan kehadiran Bapak/Ibu/Sdr(i) pada acara Tasyakuran Walimatul Khitan anak kami: </p>
@@ -98,5 +116,11 @@
       <div class="right">
         <img src="images/tornvagn003-1.jpg" class="picsiz">
       </div>
+
+      <ul class="navbar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Address</a></li>
+      </ul>
   </body>
 </html>
