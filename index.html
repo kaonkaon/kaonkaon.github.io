@@ -14,6 +14,7 @@
 
     <style>
     *{
+      /*background-color: #f7c799;*/
       box-sizing: border-box;
     }
 
@@ -24,10 +25,12 @@
       }
 
       .left {
-        background-color: #2196F3;
+        background-color: black;
+        color: white;
         padding: 20px;
         float: left;
-        width: 20%; /* The width is 20%, by default */
+        width: 60%; /* The width is 20%, by default */\
+        font-family: 'Edu NSW ACT Foundation', cursive;
       }
 
       .right{
@@ -58,9 +61,19 @@
         font-family: 'Edu NSW ACT Foundation', cursive;
       }
 
+      .picsiz{
+        width: 200%;
+        height: auto;
+      }
+
       @media screen and (max-width: 600px) {
         .left, .main, .right, .header_l, .header_m {
           width: 100%;
+        }
+
+        .picsiz{
+          width: 100%;
+          height: auto;
         }
       }
     </style>
@@ -70,7 +83,7 @@
 
       <header class="header_m">
         <h5 style="font-size: 30px;">Undangan Khitan</h5>
-        <h1 style="font-size: 50px;">Walimatul Khitan</h1>
+        <h1 style="font-size: 60px; line-height: 0.7;">Walimatul Khitan</h1>
       </header>
 
       <div class="left">
@@ -79,11 +92,11 @@
 
       <div class="main">
         <p style="font-size: 20px">dengan memohon rahmat dan ridha Allah SWT. Kami mengaharapkan kehadiran Bapak/Ibu/Sdr(i) pada acara Tasyakuran Walimatul Khitan anak kami: </p>
-        <h1 style="font-size: 45px">Kento Aditya Rahman</h1>
+        <h1 style="font-size: 45px">Tornvagn</h1>
       </div>
 
       <div class="right">
-        <p style>bruh moment</p>
+        <img src="images/tornvagn003-1.jpg" class="picsiz">
       </div>
   </body>
 </html>
