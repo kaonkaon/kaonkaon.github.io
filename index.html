@@ -19,27 +19,24 @@
         font-family: 'Edu NSW ACT Foundation', cursive;
       }
 
-      nav{
+      .right{
+        background-color: red;
+        padding: 20px;
         float: left;
-      }
-
-      article{
-        -webkit-flex: 3;
-        -ms-flex: 3;
-        flex: 3;
-        padding: 10% 10%;
+        width: 20%;
         font-family: 'Edu NSW ACT Foundation', cursive;
       }
 
-      nav ul{
-        list-style-type: none;
-        padding: 0;
+      .main{
+        padding: 20% 10% 0% 10%;
+        float: left;
+        width: 60%;
+        font-family: 'Edu NSW ACT Foundation', cursive;
       }
 
-      @media (max-width: 600px;) {
-        nav, article{
+      @media screen and (max-width: 600px) {
+        .left, .main, .right {
           width: 100%;
-          height: auto;
         }
       }
     </style>
@@ -47,13 +44,17 @@
 
   <body>
       <header>
-        <p style="font-size: 30px;">Undangan Khitan</p>
-        <h1 style="font-size: 50px; height: 30px;">Walimatul Khitan</h1>
+        <p style="font-size: 6vw;">Undangan Khitan</p>
+        <h1 style="font-size: 10vw; height: 30px;">Walimatul Khitan</h1>
       </header>
 
-        <article>
-          <p style="width: 60%;">dengan memohon rahmat dan ridha Allah SWT. Kami mengaharapkan kehadiran Bapak/Ibu/Sdr(i) pada acara Tasyakuran Walimatul Khitan anak kami: </p>
-          <h1 style="font-size: 40px">Kento Aditya Rahman</h1>
-      </section>
+      <div class="main">
+        <p style="width: 70%; font-size: 3vw">dengan memohon rahmat dan ridha Allah SWT. Kami mengaharapkan kehadiran Bapak/Ibu/Sdr(i) pada acara Tasyakuran Walimatul Khitan anak kami: </p>
+        <h1 style="font-size: 4vw">Kento Aditya Rahman</h1>
+      </div>
+
+      <div class="right">
+        <p style>bruh moment</p>
+      </div>
   </body>
 </html>
