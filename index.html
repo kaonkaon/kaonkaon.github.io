@@ -5,7 +5,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,59 +16,20 @@
     *{
       background-color: #F5F5F5;
       box-sizing: border-box;
+      font-family: 'Montserrat', cursive;
     }
 
-      header{
-        color: black;
-        padding: 0px 10%;
-        font-family: 'Edu NSW ACT Foundation', cursive;
-      }
+
 
       p {
-        font-size: 20px;
-      }
-
-      .left {
-        background-color: black;
-        color: white;
-        margin: 20px;
-        float: left;
-        width: 60%; /* The width is 20%, by default */\
-        font-family: 'Edu NSW ACT Foundation', cursive;
-      }
-
-      .right{
-        padding: 20px;
-        float: left;
-        width: 20%;
-        font-family: 'Edu NSW ACT Foundation', cursive;
+        font-size: 14px;
       }
 
       .main{
         padding: 20px;
         float: left;
         width: 60%;
-        font-family: 'Edu NSW ACT Foundation', cursive;
-      }
-
-      .header_l{
-        padding: 20px;
-        float: left;
-        width: 20%;
-        font-family: 'Edu NSW ACT Foundation', cursive;
-      }
-
-      .header_m{
-        padding: 20px;
-        float: left;
-        width: 60%;
-        font-family: 'Edu NSW ACT Foundation', cursive;
-      }
-
-      .picsiz{
-        float: center;
-        max-width: 150%;
-        height: auto;
+        text-align: center;
       }
 
       @media screen and (max-width: 600px) {
@@ -108,7 +69,7 @@
       .card{
         background: #fff;
         background-clip: padding-box;
-        padding : 15px;
+        padding : 30px;
       }
 
       .card p{
@@ -128,24 +89,21 @@
 
   <body>
 
-      <header class="header_m">
-        <h5 style="font-size: 30px;">Undangan Khitan</h5>
-        <h1 style="font-size: 60px; line-height: 0.7; position: -webkit-sticky; position: sticky;">Walimatul Khitan</h1>
-      </header>
-
-      <div class="main">
-        <p style="font-size: 20px">dengan memohon rahmat dan ridha Allah SWT. Kami mengaharapkan kehadiran Bapak/Ibu/Sdr(i) pada acara Tasyakuran Walimatul Khitan anak kami: </p>
-        <h1 style="font-size: 57px">Kento Aditya Rahman</h1>
-      </div>
-
-      <div class="right">
-        <img src="images/Kento.jpeg" class="picsiz">
-      </div>
+      <section style="min-height: 100vh; text-align: center; position: relative; width: 100%;">
+          <div style="position: absolute; top: 5%;">
+            <h5 style="font-size: 20px; margin: 0px 10px;">Undangan Khitan</h5>
+            <h1 style="font-size: 55px; line-height: 0.7; margin: 20px 10px;">Walimatul Khitan</h1>
+            <div style="padding: 10px">
+              <img src="images/Kento.jpeg" style="max-width: 40%; border-radius: 3%;">
+            </div>
+            <h1 style="font-size: 40px">Kento Aditya Rahman</h1>
+          </div>
+      </section>
 
       <div class="main">
         <ul style="display: block; list-style-position: inside; list-style-type: none; padding: 0; margin: 0;">
           <li>
-            <p style="text-align: left">Ya Allah,
+            <p>Ya Allah,
               Muliakanlah anak Kami ini,
               Panjangkanlah umurnya,
               Terangilah Hatinya,
@@ -157,8 +115,13 @@
           <li>
               <b>
                 <p> Dengan memohon Rahmat dan Ridho Allah SWT</p>
-                <p> Kami bermaksud menyelenggarakan Syukuran Khitanan putra kmai yang inshaaAllah akan dilaksanakan pada: </p>
+                <p> Kami bermaksud menyelenggarakan Syukuran Khitanan putra kami </p>
+                <p style="font-size: 40px; margin: 10px;"> Kento Aditya Rahman</p>
+                <p>yang inshaaAllah akan dilaksanakan pada: </p>
           </li>
+
+          <br><br><br>
+
           <li class="card">
                 <p style="font-size: 50px; margin: 0px;">Sabtu, 30 Juli 2022</p>
                 <p style="font-size: 20px; margin: 5px;">Pukul: waktuwaktuwaktuwaktu</p>
