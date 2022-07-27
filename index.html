@@ -19,6 +19,10 @@
       font-family: 'Montserrat', cursive;
     }
 
+    html{
+      scroll-behavior: smooth;
+    }
+
       p {
         font-size: 14px;
       }
@@ -83,12 +87,21 @@
         color: #4183C4;
         text-decoration: none;
       }
+
+      #sectionb{
+        animation: fadethething 5s;
+      }
+
+      @keyframes fadethething{
+        from {opacity: 0%;}
+        to {opacity: 100%;}
+      }
     </style>
   </head>
 
   <body>
 
-      <section style="min-height: 100vh; text-align: center; position: relative; width: 100%;">
+      <section style="min-height: 100vh; text-align: center; position: relative; width: 100%;" id="sectionb">
           <div style="position: absolute; top: 5%;">
             <h5 style="font-size: 20px; margin: 0px 10px;">Undangan Khitan</h5>
             <h1 style="font-size: 55px; line-height: 0.7; margin: 20px 10px;">Walimatul Khitan</h1>
@@ -97,11 +110,11 @@
             </div>
           </div>
           <div style="position: absolute; bottom: 10%; width: 100%">
-            <h1 style="font-size: 30px;"><b>Kento Aditya Rahman</b></h1>
+            <h1 style="font-size: 30px;"><b><a href="#sectiona">Kento Aditya Rahman</a></b></h1>
           </div>
       </section>
 
-      <div class="main">
+      <div class="main" id="sectiona">
         <ul style="display: block; list-style-position: inside; list-style-type: none; padding: 0; margin: 0;">
           <li>
             <p>Ya Allah,
